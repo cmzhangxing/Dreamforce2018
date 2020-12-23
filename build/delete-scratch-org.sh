@@ -1,3 +1,3 @@
 # Delete tmp scratch org
 echo "Deleting Scratch Org"
-yes | sfdx force:org:delete -u ${CIRCLE_BRANCH}
+echo "y" | sfdx force:org:delete -u ${CIRCLE_BRANCH}
